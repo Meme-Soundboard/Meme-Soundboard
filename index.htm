@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <link rel="icon" href="img/icon (2).png" id="websiteIcon">
+        <link rel="stylesheet" href="styles/main.css">
+        <!----Linking JS Files---->
+        <script src="sounds.js"></script>
+        <script src="rainbowTitle.js"></script>
+        <script src="misc.js"></script>
+        <script src="rainbowTitle2.js"></script>
+        <script src="rainbow.js"></script>
+        <!----Main HTML and Copyrights---->
+        <title>Meme Soundboard</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="When memes meet coding, great things happen. But, sadly enough, they are available on mobile only. We have extended the bar by making the... Meme SoundBoard 2021 PC edition!">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="VidTDM,Aarush Abhilash">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <!----Title Text, Pictures and Sounds---->
+    <body>
+        <div id="title">
+            <img src="img/icon (2).png" id="firstIcon">
+            <label id="titleText">Meme Soundboard</label>
+            <img src="img/icon (2).png" id="secondIcon">
+        </div>
+        <div>
+            <label for="profanitiesInput" id="profanitiesInputLabel">Swearwords:</label>
+            <input type="checkbox" id="profanitiesInput" checked>
+        </div>
+        <!--<div id="searchbar">
+            <input>
+        </div>-->
+
+        <!---BUTTONS--->
+        <br>
+        <div>
+            <button onclick="bruhAudio.play()">bruh</button>
+            <button onclick="NANIAudio.play()">NANI</button>
+            <button onclick="hellNawAudio.play()">hell naw</button>
+            <button onclick="myNameIsJeffAudio.play()">my name is jeff</button>
+            <button onclick="doItAudio.play()">Do it</button>
+            <button onclick="nopeAudio.play()">Nope</button>
+            <button onclick="ohNoX4LaughAudio.play()">Look at dis dood</button>
+            <button onclick="iLikeYaCutGAudio.play()">i like ya cut g</button>
+            <button onclick="widePutinAudio.play()">Wide Putin</button>
+            <button onclick="coffinDanceAudio.play()">Coffin Dance</button>
+            <button onclick="oofAudio.play()">oof</button>
+            <button onclick="pdpWowAudio.play()">Anime Wow</button>
+            <button onclick="damagedCodaAudio.play()">Damaged Coda</button>
+            <button onclick="iAmGrootAudio.play()">i am groot</button>
+            <button onclick="FBIOpenUpAudio.play()">FBI open up</button>
+            <button onclick="sadViolinAudio.play()">Sad Violin</button>
+            <button onclick="drumrollAudio.play()">Drumroll</button>
+            <button onclick="deezNutsAudio.play()">Deez nuts</button>
+            <button onclick="robertBWeideAudio.play()">Directed By Robert B. Weide</button>
+            <button onclick="iveanPollkaAudio.play()">Ivean polkka</button>
+            <button onclick="bananaaAudio.play()">Bananaa</button>
+            <button onclick="nooooooooobAudio.play()">nooooooooob</button>
+            <button onclick="nootNootAudio.play()">noot noot</button>
+            <button onclick="fortDefDanceAudio.play()">Fortnite Default Dance Bass Boosted</button>
+            <button onclick="pufferfishAudio.play()">Pufferfish</button>
+            <button onclick="itsTimeToStopAudio.play()">It's time to stop</button>
+            <button onclick="epicSaxGuyAudio.play()">Epic Sax Guy</button>
+            <button onclick="ahShtHereWeGoAgainAudio.play()" class="swearword" id="ahShtHereWeGoAgain">Ah sh*t here we go again</button>
+            <button onclick="quackAudio.play()">quack</button>
+            <button onclick="whyRURunninAudio.play()">why r u runnin</button>
+            <button onclick="bonkAudio.play()"><b>bonk</b></button>
+            <button onclick="yeet1Audio.play()">Yeet x1</button>
+            <button onclick="yeetAudio.play()">Yeet x3</button>
+            <button onclick="houstonWeHaveAProblemAudio.play()">Houston, we have a problem</button>
+            <button onclick="amongUsKillAudio.play()">Among Us Kill Sound</button>
+            <button onclick="heFckedUpAudio.play()" class="swearword" id="heFckedUp">It was at this moment that he knew he f*cked up</button>
+            <button onclick="reeeeAudio.play()">REEEEEEEEEEEE</button>
+            <button onclick="johnCenaAreYouSureAudio.play()">John Cena ARE YOU SURE?</button>
+            <button onclick="toBeContinuedAudio.play()">To be continued</button>
+            <button onclick="surpriseMotherfckerAudio.play()" class="swearword" id="surpriseMotherFcker">Surprise Motherf*cker</button>
+            <button onclick="pewAudio.play()">pew</button>
+            <button onclick="waitAMinAudio.play()">Hold up, wait a minute</button>
+            <button onclick="okayAudio.play()">okay</button>
+            <button onclick="DJAirhornAudio.play()">DJ Airhorn</button>
+            <button onclick="XPStartupAudio.play()">Windows XP Startup</button>
+            <button onclick="XPErrorAudio.play()">Windows XP Error</button>
+            <button onclick="XPShutdownAudio.play()">Windows XP Shutdown</button>
+            <button onclick="runAudio.play()">run</button>
+            <button onclick="sansGiornosThemeAudio.play()">Sans Giorno's Theme</button>
+            <button onclick="giornosThemeAudio.play()">Giorno's Theme</button>
+            <button onclick="pufferGiornoThemeAudio.play()">Pufferfish Giorno's Theme</button>
+            <button onclick="noGodPleaseNoAudio.play()">NO GOD PLEASE NO</button>
+            <button onclick="elRisitasLaughAudio.play()">el risitas laugh</button>
+            <button onclick="bassBoostedCrabRaveAudio.play()">Bass Boosted Crab rave</button>
+            <button onclick="crabRaveAudio.play()">Crab Rave</button>
+            <button onclick="clickNoiceAudio.play()"><b>n o i c e</b></button>
+            <button onclick="wiiThemeAudio.play()">wii Theme</button>
+            <button onclick="elevatorMusicShortAudio.play()">Elevator Music Short</button>
+            <button onclick="elevatorMusicBassBoostedAudio.play()">Elevator Music Bass Boosted</button>
+            <button onclick="marioStartAudio.play()">Mario Start</button>
+            <button onclick="marioJumpAudio.play()">Mario Jump</button>
+            <button onclick="marioDeathAudio.play()">Mario Death</button>
+            <button onclick="kazooKidWhoAreYouAudio.play()">Kazoo Kid Who Are You</button>
+            <button onclick="kazooKidHasSkillsAudio.play()">Kazoo Kid Has Skills</button>
+            <button onclick="byeHaveAGreatTimeAudio.play()">Bye Have A Great Time</button>
+            <button onclick="iBelieveICanFlyAudio.play()">I Believe I Can Fly</button>
+            <button onclick="illuminatiTheXFilesAudio.play()">The X files</button>
+            <button onclick="gasgasgasAudio.play()">gas gas gas</button>
+            <button onclick="wiggleWiggleWiggleAudio.play()">Wiggle Wiggle</button>
+            <button onclick="fortniteDefaultDanceAudio.play()">Fortnite Default Dance</button>
+            <button onclick="runninInDa90sAudio.play()">running in the 90s</button>
+            <button onclick="wellBeRightBackAudio.play()">We'll Be Right Back</button>
+            <button onclick="megalovaniaAudio.play()">Megalovania</button>
+            <button onclick="dunDunDunAudio.play()">dun dun dun</button>
+            <button onclick="hiDarknesMyOldFriAudio.play()">Hello darkness, my old friend</button>
+            <button onclick="dejaVuAudio.play()">déjà vu</button>
+            <button onclick="thugLifeAudio.play()" class="swearword" id="thugLife">Thug life</button>
+            <button onclick="itsAMeMarioAudio.play()">It's A Me, Mario</button>
+            <button onclick="nyanCatAudio.play()">Nyanyanyanyanyanyanya</button>
+            <button onclick="heNeedsSomeMilkAudio.play()">He needs some milk</button>
+            <button onclick="whyAreWeStillHereAudio.play()">Why are still here?</button>
+            <button onclick="lalalalalaAudio.play()">Lalalalala</button>
+            <button onclick="heyThatsPrettyGoodAudio.play()">Hey, thats pretty good</button>
+            <button onclick="dingAudio.play()">Ding</button>
+            <button onclick="heheBoiAudio.play()">Hehe Boi</button>
+            <button onclick="enemySpottedAudio.play()">Enemy Spotted</button>
+            <button onclick="wrongAnswerSoundEffectAudio.play()">Wrong Answer Sound Effect</button>
+            <button onclick="screamingSheepAudio.play()">Screaming Sheep</button>
+            <button onclick="carelessWhisperAudio.play()">Careless Whisper</button>
+            <button onclick="whatRUDoinInMySwampAudio.play()">what are you doing in my swamp</button>
+            <button onclick="kattyPerryFineAudio.play()">you just have to say that you're fine</button>
+            <button onclick="fusRoDahAudio.play()"><b>Fus Ro Dah</b></button>
+            <button onclick="datsALotOfDamageAudio.play()">thats a lot of damage</button>
+            <button onclick="babaBooeyAudio.play()">baba booey</button>
+            <button onclick="disgustangAudio.play()"><b>DISGUSTANG</b></button>
+            <button onclick="shootingStarsAudio.play()">Shooting stars - Bag Raiders</button>
+            <button onclick="sandStormAudio.play()">Sandstorm - Darude</button>
+            <button onclick="borkAudio.play()"><b>BORK</b></button>
+            <button onclick="the7thElementAudio.play()">The 7th Element</button>
+            <button onclick="headsWillRollAudio.play()">Dance till you're dead</button>
+            <button onclick="cricketNoiseAudio.play()">Awkward Cricket Noise</button>
+            <button onclick="yeyeyeyeyeyeyeAudio.play()">yeyeyeyeyeyeye</button>
+            <button onclick="rickRollAudio.play()">Rickroll</button>
+            <button onclick="polishCowAudio.play()">Polish Cow</button>
+            <button onclick="sayGoodbyeRickAstleyAudio.play()">Say Goodbye (Rick Astley)</button>
+            <button onclick="anotherOneBitesTheDustAudio.play()">Another One Bites The Dust</button>
+            <button onclick="discordJoinAudio.play()">Discord Join</button>
+            <button onclick="discordNotifAudio.play()">Discord Notification</button>
+            <button onclick="turnDownForWhatAudio.play()"><b>TURN DOWN FOR WHAT</b></button>
+            <button onclick="eAudio.play()">Markiplier <b>E</b></button>
+            <button onclick="sneakySnitchAudio.play()">Sneaky Snitch</button>
+            <button onclick="bassBoostAudio.play()">Bass Boost Fart</button>
+            <button onclick="ohNoAudio.play()">Oh No - Capone</button>
+
+
+        </div>
+        <br>
+        <div id="stopContainer">    
+            <button onclick="window.open('dogeDaIlluminati/dogeDaIlluminatiMain.htm')">Doge Da Illuminati</button>
+            <button onclick="window.open('https://scratch.mit.edu/projects/494502589/embed')">Doge Da Illuminati Link</button>
+            <button onclick="window.location.reload()" id="stopButton"><b>STOP</b></button>
+        </div>
+        </br>
+        <div>
+        </div>
+        </body>
+    </body>
+</html>
